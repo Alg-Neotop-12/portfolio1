@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to right,green,rgb(0, 205, 0),rgb(15, 122, 34),rgb(0, 205, 0),green);
+    border-radius: 15px;
+    color: rgb(25, 168, 215);
+    text-shadow: -3px 3px 0 blue,-6px 6px 0 navy;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+.abilities {
+    color: orangered;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+
+li {
+    color: crimson;
+    font-size: 25px;
+}
+
+.link-header {
+    border: 2px solid blue;
+    background-color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    border-radius: 10px;
+}
